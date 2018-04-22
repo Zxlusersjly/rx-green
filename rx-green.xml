@@ -1,6 +1,6 @@
 <prescriptions xmlns="http://greenify.github.io/schemas/prescription/v3">
 <!-- Tencent TinkerPatch -->
-<prescription type="service" class="com.xiaomi.push.sdk.service.MessageHandleService" sender="any" />
+<prescription type="service" class="com.tencent.bugly.beta.tinker.TinkerResultService" sender="any" />
 <prescription type="service" class="com.tencent.tinker.lib.service.TinkerPatchService$InnerService" sender="any" />
 <prescription type="service" class="com.tencent.tinker.lib.service.TinkerPatchService" sender="any" />
 <prescription type="service" class="com.tencent.tinker.lib.service.DefaultTinkerResultService" sender="any" />
