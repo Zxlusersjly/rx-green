@@ -4,3 +4,4 @@
 <prescription type="service" class="com.tencent.tinker.lib.service.TinkerPatchService$InnerService" sender="any" />
 <prescription type="service" class="com.tencent.tinker.lib.service.TinkerPatchService" sender="any" />
 <prescription type="service" class="com.tencent.tinker.lib.service.DefaultTinkerResultService" sender="any" />
+</prescriptions>
