@@ -1,7 +1,15 @@
 <prescriptions xmlns="http://greenify.github.io/schemas/prescription/v3">
-<!-- Tencent TinkerPatch -->
+<!-- 腾讯热修复 -->
 <prescription type="service" class="com.tencent.bugly.beta.tinker.TinkerResultService" sender="any" />
 <prescription type="service" class="com.tencent.tinker.lib.service.TinkerPatchService$InnerService" sender="any" />
 <prescription type="service" class="com.tencent.tinker.lib.service.TinkerPatchService" sender="any" />
 <prescription type="service" class="com.tencent.tinker.lib.service.DefaultTinkerResultService" sender="any" />
+<!-- 腾讯广点通广告 -->
+<prescription type="service" class="com.qq.e.comm.DownloadService" sender="any" />
+<!-- 高德定位 -->
+<prescription type="service" class="com.amap.api.location.APSService" sender="any" />
+<!-- 百度定位 -->
+<prescription type="service" class="com.baidu.location.f" sender="any" />
+<!-- 未知 -->
+<prescription type="service" class="com.alibaba.analytics.AnalyticsService" sender="any" />
 </prescriptions>
