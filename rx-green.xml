@@ -13,22 +13,30 @@
 <!-- 谷歌广告 -->
 <prescription type="activity" class="com.google.android.gms.ads.AdActivity" sender="any" />
 <prescription type="activity" class="com.google.android.gms.ads.purchase.InAppPurchaseActivity" sender="any" />
-<prescription type="activity" class="com.google.ads.AdActivity" sender="any" />​
+<prescription type="activity" class="com.google.ads.AdActivity" sender="any" />
+<!-- 洛米广告 -->
+<prescription type="activity" class="com.luomi.lm.ad.WebViewActivity" sender="any" />
+<prescription type="service" class="com.luomi.lm.ad.DownloadService" sender="any" />
 <!-- 其他广告 -->
 <prescription type="activity" class="com.cloudtech.ads.view.InnerWebLandingActivity" sender="any" />
+<prescription type="activity" class="com.cloudtech.appwall.AppwallActivity" sender="any" />
 <prescription type="activity" class="com.inmobi.rendering.InMobiAdActivity" sender="any" />
-<prescription type="activity" class="com.yandex.mobile.ads.AdActivity" sender="any" />​
+<prescription type="activity" class="com.yandex.mobile.ads.AdActivity" sender="any" />
 <prescription type="activity" class="com.facebook.ads.AudienceNetworkActivity" sender="any" />
+<prescription type="activity" class="com.kyview.AdActivity" sender="any" />
+<prescription type="activity" class="com.kyview.AdviewWebView" sender="any" />
+<prescription type="service" class="com.kyview.DownloadService" sender="any" />
 <!-- 谷歌Firebase分析 -->
 <prescription type="service" class="com.google.android.gms.measurement.AppMeasurementService" sender="any" />
 <prescription type="service" class="com.google.firebase.iid.FirebaseInstanceIdService" sender="any" />
-<prescription type="service" class="com.google.android.gms.measurement.AppMeasurementJobService" sender="any" />​
+<prescription type="service" class="com.google.android.gms.measurement.AppMeasurementJobService" sender="any" />
 <prescription type="service" class="com.google.android.gms.analytics.AnalyticsService" sender="any" />
-<prescription type="service" class="com.google.android.gms.analytics.AnalyticsJobService" sender="any" />​
+<prescription type="service" class="com.google.android.gms.analytics.AnalyticsJobService" sender="any" />
 <prescription type="broadcast" class="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" sender="any" />
 <prescription type="broadcast" class="com.google.android.gms.measurement.AppMeasurementReceiver" sender="any" />
 <prescription type="broadcast" class="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver" sender="any" />
 <prescription type="broadcast" class="com.google.firebase.iid.FirebaseInstanceIdReceiver" sender="any" />
+<prescription type="broadcast" class="com.google.android.gms.analytics.ANALYTICS_DISPATCH" sender="any" />
 <!-- 未知 -->
 <prescription type="service" class="com.alibaba.analytics.AnalyticsService" sender="any" />
 </prescriptions>
