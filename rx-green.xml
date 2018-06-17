@@ -8,17 +8,6 @@
 <prescription type="service" class="com.amap.api.location.APSService" sender="any" />
 <!-- 百度定位 -->
 <prescription type="service" class="com.baidu.location.f" sender="any" />
-<!-- 谷歌Firebase分析 -->
-<prescription type="service" class="com.google.android.gms.measurement.AppMeasurementService" sender="any" />
-<prescription type="service" class="com.google.firebase.iid.FirebaseInstanceIdService" sender="any" />
-<prescription type="service" class="com.google.android.gms.measurement.AppMeasurementJobService" sender="any" />
-<prescription type="service" class="com.google.android.gms.analytics.AnalyticsService" sender="any" />
-<prescription type="service" class="com.google.android.gms.analytics.AnalyticsJobService" sender="any" />
-<prescription type="broadcast" class="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" sender="any" />
-<prescription type="broadcast" class="com.google.android.gms.measurement.AppMeasurementReceiver" sender="any" />
-<prescription type="broadcast" class="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver" sender="any" />
-<prescription type="broadcast" class="com.google.firebase.iid.FirebaseInstanceIdReceiver" sender="any" />
-<prescription type="broadcast" class="com.google.android.gms.analytics.ANALYTICS_DISPATCH" sender="any" />
 <!-- 360手机助手检查更新Sdk -->
 <prescription type="service" class="com.qihoo.appstore.updatelib.CheckUpdateService" sender="any" /> 
 <!-- 未知 -->
