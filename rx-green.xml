@@ -4,6 +4,11 @@
 <prescription type="service" class="com.tencent.tinker.lib.service.TinkerPatchService$InnerService" sender="any" />
 <prescription type="service" class="com.tencent.tinker.lib.service.TinkerPatchService" sender="any" />
 <prescription type="service" class="com.tencent.tinker.lib.service.DefaultTinkerResultService" sender="any" />
+<prescription type="service" class="com.tinkerpatch.sdk.tinker.service.TinkerServerResultService" sender="any" />
+<prescription type="service" class="com.tencent.tinker.lib.service.TinkerPatchService$IntentServiceRunner$InnerService" sender="any" />
+<prescription type="service" class="com.tencent.tinker.lib.service.TinkerPatchService$JobServiceRunner" sender="any" />
+<prescription type="service" class="com.tencent.tinker.lib.service.TinkerPatchService$IntentServiceRunner" sender="any" />
+<prescription type="broadcast" class="com.tinkerpatch.sdk.server.utils.ReportBroadCast" sender="any" />
 <!-- 高德定位 -->
 <prescription type="service" class="com.amap.api.location.APSService" sender="any" />
 <!-- 百度定位 -->
