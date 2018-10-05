@@ -9,6 +9,9 @@
 <prescription type="service" class="com.tencent.tinker.lib.service.TinkerPatchService$JobServiceRunner" sender="any" />
 <prescription type="service" class="com.tencent.tinker.lib.service.TinkerPatchService$IntentServiceRunner" sender="any" />
 <prescription type="broadcast" class="com.tinkerpatch.sdk.server.utils.ReportBroadCast" sender="any" />
+<prescription type="service" class="moai.patch.log.PatchEventService" sender="any" />
+<prescription type="service" class="moai.patch.handle.PatchHideService" sender="any" />
+<prescription type="service" class="moai.patch.handle.PatchService" sender="any" />
 <!-- 高德定位 -->
 <prescription type="service" class="com.amap.api.location.APSService" sender="any" />
 <!-- 百度定位 -->
