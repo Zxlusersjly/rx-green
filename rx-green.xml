@@ -16,8 +16,10 @@
 <prescription type="service" class="com.amap.api.location.APSService" sender="any" />
 <!-- 百度定位 -->
 <prescription type="service" class="com.baidu.location.f" sender="any" />
-<!-- 360手机助手检查更新Sdk -->
+<!-- 360手机助手检查更新SDK -->
 <prescription type="service" class="com.qihoo.appstore.updatelib.CheckUpdateService" sender="any" /> 
+<!-- 华为检查更新SDK -->
+<prescription type="service" class="com.huawei.updatesdk.service.deamon.download.DownloadService" sender="any" />
 <!-- 未知 -->
 <prescription type="service" class="com.alibaba.analytics.AnalyticsService" sender="any" />
 <prescription type="service" class="com.alibaba.mtl.appmonitor.AppMonitorService" sender="any" />
