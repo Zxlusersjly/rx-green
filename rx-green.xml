@@ -20,6 +20,8 @@
 <prescription type="service" class="com.qihoo.appstore.updatelib.CheckUpdateService" sender="any" /> 
 <!-- 华为检查更新SDK -->
 <prescription type="service" class="com.huawei.updatesdk.service.deamon.download.DownloadService" sender="any" />
+<!-- OpenUDID -->
+<prescription type="service" class="org.openudid.OpenUDID_service" sender="any" />
 <!-- 未知 -->
 <prescription type="service" class="com.alibaba.analytics.AnalyticsService" sender="any" />
 <prescription type="service" class="com.alibaba.mtl.appmonitor.AppMonitorService" sender="any" />
