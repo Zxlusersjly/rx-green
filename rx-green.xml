@@ -7,15 +7,16 @@
 <prescription type="service" class="com.tinkerpatch.sdk.tinker.service.TinkerServerResultService" sender="any" />
 <prescription type="service" class="com.tencent.tinker.lib.service.TinkerPatchService$IntentServiceRunner$InnerService" sender="any" />
 <prescription type="service" class="com.tencent.tinker.lib.service.TinkerPatchService$JobServiceRunner" sender="any" />
+<prescription type="service" class="com.tencent.tinker.lib.service.TinkerPatchForeService" sender="any" />
 <prescription type="service" class="com.tencent.tinker.lib.service.TinkerPatchService$IntentServiceRunner" sender="any" />
 <prescription type="broadcast" class="com.tinkerpatch.sdk.server.utils.ReportBroadCast" sender="any" />
 <prescription type="service" class="moai.patch.log.PatchEventService" sender="any" />
 <prescription type="service" class="moai.patch.handle.PatchHideService" sender="any" />
 <prescription type="service" class="moai.patch.handle.PatchService" sender="any" />
 <!-- 高德定位 -->
-<prescription type="service" class="com.amap.api.location.APSService" sender="any" />
+<!-- <prescription type="service" class="com.amap.api.location.APSService" sender="any" /> -->
 <!-- 百度定位 -->
-<prescription type="service" class="com.baidu.location.f" sender="any" />
+<!-- <prescription type="service" class="com.baidu.location.f" sender="any" /> -->
 <!-- 360手机助手检查更新SDK -->
 <prescription type="service" class="com.qihoo.appstore.updatelib.CheckUpdateService" sender="any" /> 
 <!-- 华为检查更新SDK -->
